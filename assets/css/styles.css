@@ -221,6 +221,7 @@ h1 {
   color:rgb(223, 219, 219);
   height: 40px;
   font-size: 20px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -426,6 +427,7 @@ figure.hover figcaption {
  }
  .drop_down1{
    width: 25%;
+   font-size: 17px;
  }
   
 }
