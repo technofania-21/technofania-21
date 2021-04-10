@@ -39,22 +39,22 @@
                 </a>
 
                 <div class="nav__list">
-                    <a href="Home.html" class="nav__link active">
+                    <a href="index.php" class="nav__link">
                         <i class='bx bx-grid-alt nav__icon'></i>
                         <span class="nav__name">Home</span>
                     </a>
 
-                    <a href="Event.html" class="nav__link">
-                        <i class='bx bx-user nav__icon'></i>
+                    <a href="Event.php" class="nav__link">
+                        <i class='bx bx-message-square-detail nav__icon'></i>
                         <span class="nav__name">Event</span>
                     </a>
 
-                    <a href="2023.html" class="nav__link">
-                        <i class='bx bx-message-square-detail nav__icon'></i>
+                    <a href="2023.php" class="nav__link active">
+                        <i class='bx bx-user nav__icon'></i>
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.html" class="nav__link">
+                    <a href="registration.php" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -67,9 +67,9 @@
 </div>
     <div class="dropdown" >
         <select class="drop_down1" onchange="location = this.value;">
-            <option class="drop_down" value="2021.html" selected>Batch 2k21</option>
-            <option class="drop_down" value="2022.html">Batch 2k22</option>
-            <option class="drop_down" value="2023.html">Batch 2k23</option>
+            <option class="drop_down" value="2021.php" selected>Batch 2k21</option>
+            <option class="drop_down" value="2022.php">Batch 2k22</option>
+            <option class="drop_down" value="2023.php">Batch 2k23</option>
         </select>
     </div>
 
@@ -92,7 +92,7 @@
     </div>
 
 
-    <h1>Batch 2K21</h1>
+    <h1>Batch 2021</h1>
     <div class="container">
         <ul class="headshot committee">
 

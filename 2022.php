@@ -39,22 +39,22 @@
                 </a>
 
                 <div class="nav__list">
-                    <a href="Home.html" class="nav__link active">
+                    <a href="index.php" class="nav__link">
                         <i class='bx bx-grid-alt nav__icon'></i>
                         <span class="nav__name">Home</span>
                     </a>
 
-                    <a href="Event.html" class="nav__link">
-                        <i class='bx bx-user nav__icon'></i>
+                    <a href="Event.php" class="nav__link">
+                        <i class='bx bx-message-square-detail nav__icon'></i>
                         <span class="nav__name">Event</span>
                     </a>
 
-                    <a href="2023.html" class="nav__link">
-                        <i class='bx bx-message-square-detail nav__icon'></i>
+                    <a href="2023.php" class="nav__link active">
+                        <i class='bx bx-user nav__icon'></i>
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="#" class="nav__link">
+                    <a href="registration.php" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -66,13 +66,13 @@
     <h1>Our Team</h1>
     <div class="dropdown">
         <select class="drop_down1" onchange="location = this.value;">
-            <option class="drop_down" value="2021.html" >Batch 2k21</option>
-            <option class="drop_down" value="2022.html" selected>Batch 2k22</option>
-            <option class="drop_down" value="2023.html">Batch 2k23</option>
+            <option class="drop_down" value="2021.php" >Batch 2k21</option>
+            <option class="drop_down" value="2022.php" selected>Batch 2k22</option>
+            <option class="drop_down" value="2023.php">Batch 2k23</option>
         </select>
     </div>
 
-    <div class="staff">
+   <div class="staff">
         <ul class="headshot committee">
             <li>
                 <figure>
@@ -91,9 +91,10 @@
     </div>
 
 
-    <h1>Batch 2K22</h1>
+    <h1>Batch 2022</h1>
     <div class="container">
         <ul class="headshot committee">
+
             <li>
                 <figure>
                     <img src="img/2022/twinkle.jpg" width="214px" height="270px" alt="" />
@@ -107,6 +108,7 @@
                     </figcaption>
                 </figure>
             </li>
+
             <li>
                 <figure>
                     <img src="img/2022/sunil.jpeg" width="214px" height="270px" alt="" />
@@ -147,48 +149,49 @@
                 </figure>
             </li>
         </ul>
-        <div class="row2">
-            <ul class="headshot committee">
-                <li>
-                    <figure>
-                        <img src="img/2022/mayank.jpeg" width="214px" height="270px" alt="" />
-                        <figcaption>
 
-                            <div>
-                                <h2>MAYANK SHARMA</h2><br>
-                            </div>
+        <ul class="headshot committee">
+            <li>
+                <figure>
+                    <img src="img/2022/mayank.jpeg" width="214px" height="270px" alt="" />
+                    <figcaption>
 
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/2022/mrinal.jpeg" width="214px" height="270px" alt="" />
-                        <figcaption>
+                        <div>
+                            <h2>MAYANK SHARMA</h2><br>
+                        </div>
 
-                            <div>
-                                <h2>MRINAL SATYAWANSHI</h2><br>
-                            </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/2022/mrinal.jpeg" width="214px" height="270px" alt="" />
+                    <figcaption>
 
-                        </figcaption>
-                    </figure>
-                </li>
+                        <div>
+                            <h2>MRINAL SATYAWANSHI</h2><br>
+                        </div>
 
-                <li>
-                    <figure>
-                        <img src="img/2022/sumit.jpeg" width="214px" height="270px" alt="" />
-                        <figcaption>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/2022/sumit.jpeg" width="214px" height="270px" alt="" />
+                    <figcaption>
 
-                            <div>
-                                <h2>SUMIT PARMAR</h2><br>
+                        <div>
+                            <h2>SUMIT PARMAR</h2><br>
 
-                            </div>
+                        </div>
 
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-    </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+
+        </ul>
+
     </div>
 
 

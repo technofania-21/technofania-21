@@ -1,7 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
-
 /*===== VARIABLES CSS =====*/
 :root{
 
@@ -47,6 +46,33 @@ a{
 }
 
 /*===== HEADER =====*/
+.clg {
+  /* position: absolute; */
+    /* top: .4rem;
+  left: 10%; */
+  margin-top: 3px;
+  padding-left: 4%;
+}
+
+.clg-logo {
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.clg-name{
+  font-family: 'Balsamiq Sans', cursive;
+  display: inline-block;
+  max-width: 200px;
+  text-align: left;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 1);
+  vertical-align: bottom;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+
 .header{
 
   width: 100%;
@@ -70,7 +96,6 @@ a{
 }
 
 .header__img{
-  margin-top: 10px;
   width: 35px;
   height: 60px;
   display: flex;
@@ -213,172 +238,10 @@ h1 {
   /* margin:15px 0; */
   
 }
-.drop_down1{
-  background: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
-  border:1px solid rgb(245, 234, 234);
-  width:100px; 
-  margin-right: 15px;
-  font-family: 'Balsamiq Sans', cursive;
-  color:#fff;
-  }
-
-  .drop_down{
-    background-color: transparent;
-    color: #000;
-  }
-.staff{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-.container{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.dropdown{
-  text-align: right;
-}
-ul {
-  list-style-type: none;
-  display: flex;
-  padding-left: 0;
-}
 
 
-ul li {
-  margin: 20px;
-}
+/* Registration */
 
-.headshot {
-  margin: 0;
-}
-
-.headshot figure {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  cursor: pointer;
-}
-
-.headshot figure img {
-  position: relative;
-  z-index: 10;
-  margin: 0;
-  border-radius: 50%;
-  border: 3px solid rgb(26, 24, 24);
-}
-
-ul.headshot.ta-photo {
-    width: 450px;
-    margin: 0;
-}
-
-.headshot figure figcaption {
-  position: absolute;
-  z-index: 5;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.headshot figure h2,
-.headshot figure h3 {
-  padding-top: 30px;
-  text-align: center;
-  color: #222;
-  font-family: 'Balsamiq Sans', cursive;
-  font-size: 20px;
-  margin: 0;
-}
-
-.headshot figure h3 {
-  font-family: 'Balsamiq Sans', cursive;
-  color: #333;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
-.headshot figure figcaption {
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  padding: 29px 25px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  border: 2px solid rgb(31, 30, 30);
-  backface-visibility: hidden;
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-
-.committee figure figcaption {
-  width: 200px;
-}
-
-.ta-photo figure figcaption {
-  width: 450px;
-}
-
-.headshot figure img {
-  backface-visibility: hidden;
-  height: 200px;
-  width: 200px;
-  -webkit-transition: all .7s;
-  -moz-transition: all .7s;
-  transition: all .7s;
-}
-
-.headshot figure:hover img,
-figure.hover img {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-.headshot figure:hover figcaption,
-figure.hover figcaption {
-  -webkit-transform: rotateY(0);
-  -moz-transform: rotateY(0);
-  transform: rotateY(0);
-}
-
-@media screen and (max-width: 1000px ) 
-{
-  .headshot{
-    display: block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    display: block;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-  
-
-  
-
-  /* .staff{
-      margin-left: 0px;
-  }   */
-
-}
-
-
-
-/* registraion */
 
 .contact-form{
   background: lightyellow;
@@ -391,11 +254,22 @@ figure.hover figcaption {
 }
 
 .contact-form .form-control1{
+  font-family: 'Balsamiq Sans', cursive;
 display: block;
 margin-right: auto;
-font-family: 'Balsamiq Sans', cursive;
 margin-left: auto;
-  border-radius:1rem;
+  border: 1px solid black;
+  border-radius:2px;
+  width: 40%;
+}
+.contact-form .form-control2{
+  font-family: 'Balsamiq Sans', cursive;
+display: block;
+margin-top:20px;
+margin-right: auto;
+margin-left: auto;
+  border: 1px solid black;
+  border-radius:2px;
   width: 40%;
 }
 
@@ -403,9 +277,12 @@ margin-left: auto;
 text-align:center;
 }
 .contact-form .form-control{
-  margin-top:10px;
-  border-radius:1rem;
   font-family: 'Balsamiq Sans', cursive;
+  margin-top:10px;
+  margin-left:15px;
+  border: 1px solid black;
+  border-radius:2px;
+  /*border-radius:1rem;*/
   width: 40%;
 }
 .contact-image{
@@ -424,29 +301,32 @@ text-align:center;
   margin-bottom: -7%;
 }
 .contact-form h3{
+  font-family: 'Balsamiq Sans', cursive;
   margin-bottom: 8%;
   margin-top: -10%;
-  font-family: 'Balsamiq Sans', cursive;
   text-align: center;
   color: #0062cc;
 }
 .contact-form .btnContact {
+  font-family: 'Balsamiq Sans', cursive;
 display: block;
-margin-top: 50px;
+margin-top: 30px;
 margin-right: auto;
 margin-left: auto;
   width: 50%;
-  font-family: 'Balsamiq Sans', cursive;
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #dc3545;
+  background: #0062cc;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
 }
-
-.btnContactSubmit
+.btnContact:hover{
+  background-color: #f44336;
+  color: white;
+}
+/*.btnContactSubmit
 {
   width: 50%;
   border-radius: 1rem;
@@ -456,7 +336,12 @@ margin-left: auto;
   border: none;
   cursor: pointer;
 }
-
+*/
+.success{
+  color: black;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+}
 
 .clg {
   /* position: absolute; */
@@ -468,8 +353,8 @@ margin-left: auto;
 
 .clg-logo {
   border-radius: 100%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 .clg-name{
@@ -496,3 +381,79 @@ margin-left: auto;
  }
   
 }
+
+@media screen and (max-width: 600px) {
+    .contact-form .form-control{
+        width:100%;
+        text-align:center;
+        margin-left:auto;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .contact-form .form-control1{
+        width:100%;
+        text-align:center;
+        margin-left:auto;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .contact-form .form-control2{
+        width:100%;
+        text-align:center;
+        margin-left:auto;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .contact-form{
+        margin-left: 15%;
+        width:70%;
+        height: 90%;
+        
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .contact-form .btnContact{
+        width:100%;
+        text-align:center;
+        margin-left:auto;
+    }
+   
+}
+
+@media screen and (max-width: 300px) {
+    .contact-form h3{
+       margin-left:  -9.5%;
+       
+        margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+        
+    }
+   
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 768px) {
+    .contact-form{
+        width: 50%;
+        height:80%;
+    }
+   .contact-f.form-control1{
+    width: 500px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .contact-form.form-control{
+    font-family: 'Balsamiq Sans', cursive;
+  margin-top:10px;
+  margin-left:15px;
+  border: 1px solid black;
+  border-radius:2px;
+  /*border-radius:1rem;
+  width: 40%;
+  }
+}*/

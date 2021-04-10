@@ -292,7 +292,7 @@ a{
   z-index: 1;
 }
 .card .author {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bolder;
   font-family: 'Balsamiq Sans', cursive;
 }
@@ -302,7 +302,7 @@ a{
 .card .text {
   height: 100px;
   margin: 0;
-  font-size:15px;
+  font-size:16px;
   text-align:left;
   font-family: 'Balsamiq Sans', cursive;;
 
@@ -332,8 +332,8 @@ a{
 
 .clg-logo {
   border-radius: 100%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 .clg-name{

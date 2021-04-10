@@ -39,22 +39,22 @@
                 </a>
 
                 <div class="nav__list">
-                    <a href="Home.html" class="nav__link active">
+                    <a href="index.php" class="nav__link active">
                         <i class='bx bx-grid-alt nav__icon'></i>
                         <span class="nav__name">Home</span>
                     </a>
 
-                    <a href="Event.html" class="nav__link">
+                    <a href="Event.php" class="nav__link">
                         <i class='bx bx-message-square-detail nav__icon'></i>
                         <span class="nav__name">Event</span>
                     </a>
 
-                    <a href="2023.html" class="nav__link">
+                    <a href="2023.php" class="nav__link">
                         <i class='bx bx-user nav__icon'></i>
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.html" class="nav__link">
+                    <a href="registration.php" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -62,11 +62,15 @@
             </div>
         </nav>
     </div>
-    <div class="ag-format-container">
-        <div id="js-countdown"></div>
+    <div class ="count">
+        <div class="ag-format-container">
+            <div id="js-countdown"></div>
+        </div>
     </div>
-      <!-- partial -->  
-
+        <!-- partial -->  
+    <div class = "technofanialogo">
+        <img src = "img/tech.png" style="width:15%">
+    </div>
     <div class="sinir">
         <div class="box" id="box1">T</div>
         <div class="box" id="box2">E</div>
@@ -87,7 +91,7 @@
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-      <script src='https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/timer-countdown/libs/TimeCircles.min.js'></script>
+    <script src='https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/timer-countdown/libs/TimeCircles.min.js'></script>
       <script  src="assets/js/script.js"></script>
       
 </body>

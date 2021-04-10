@@ -7,7 +7,7 @@
       function agResize() {
   
         $('#js-countdown').TimeCircles({
-          ref_date: new Date(2021, 3, 17, 0, 0, 0, 0),
+          ref_date: new Date(2021,3, 25, 0, 0, 0, 0),
           start: true,
           refresh_interval: 0.1,
           count_past_zero: true,

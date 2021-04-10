@@ -39,22 +39,22 @@
                 </a>
 
                 <div class="nav__list">
-                    <a href="Home.html" class="nav__link active">
+                    <a href="index.php" class="nav__link">
                         <i class='bx bx-grid-alt nav__icon'></i>
                         <span class="nav__name">Home</span>
                     </a>
 
-                    <a href="Event.html" class="nav__link">
+                    <a href="Event.php" class="nav__link active">
                         <i class='bx bx-message-square-detail nav__icon'></i>
                         <span class="nav__name">Event</span>
                     </a>
 
-                    <a href="2023.html" class="nav__link">
+                    <a href="2023.php" class="nav__link">
                         <i class='bx bx-user nav__icon'></i>
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.html" class="nav__link">
+                    <a href="registration.php" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -62,7 +62,9 @@
             </div>
         </nav>
     </div>
+    <h1 style="text-align:center;font-size:70px; font-family:cursive;">COMING SOON</h1>
 
+<!--
     <div class="startup">
         <div class="example-1 card">
             <div class="wrapper">
@@ -87,8 +89,7 @@
                     <div class="content">
                         <h1 class="title">Decrypt</h1>
                         <p class="text">Decrypt will have coding questions and MCQs both , Question will be given in
-                            some crypted form, in which participants first need to decode and then answer those
-                            questions.<br>
+                            some crypted form.<br>
                         </p>
                     </div>
                 </div>
@@ -165,7 +166,7 @@
                 <img src="assets/img/youlose.png">
                 <div class="data">
                     <div class="content">
-                        <h1 class="title">You Lose</h1>
+                        <h1 class="title">Word Trap</h1>
                         <p class="text">It is mobile game, Every level will consist of 4 pictures and you have to guess
                             the correct word associated with all the 4 pictures using the letters provided in each
                             level.
@@ -188,6 +189,8 @@
             </div>
         </div>
     </div>
+    
+-->
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
