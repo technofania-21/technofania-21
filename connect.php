@@ -14,7 +14,7 @@
    
     //Database connection
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-    $conn = new mysqli('localhost','technupr','dR$!+6D2a9G7@?lR','technupr_technofania');
+    $conn = new mysqli('localhost','id16532498_root','laZ=7Am<6XnvY%a1','id16532498_technofania');
    
     if($conn->connect_error)
     {
@@ -30,7 +30,7 @@
 
         if(isset($_POST['btnSubmit'])){
             $filename = $_FILES['abstract']['name'];
-            $destination = 'manish123abc123/' .$filename;
+            $destination = 'uploads/' .$filename;
             $extension = pathinfo($filename, PATHINFO_EXTENSION);
             $file = $_FILES['abstract']['tmp_name'];
             $size = $_FILES['abstract']['size'];

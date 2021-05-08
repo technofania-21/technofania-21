@@ -54,7 +54,7 @@
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.php" class="nav__link">
+                    <a href="#" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -62,9 +62,8 @@
             </div>
         </nav>
     </div>
-    <h1 style="text-align:center;font-size:70px; font-family:cursive;">COMING SOON</h1>
 
-<!--
+
     <div class="startup">
         <div class="example-1 card">
             <div class="wrapper">
@@ -189,8 +188,6 @@
             </div>
         </div>
     </div>
-    
--->
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>

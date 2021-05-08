@@ -54,7 +54,7 @@
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.php" class="nav__link">
+                    <a href="#" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -72,7 +72,7 @@
         </select>
     </div>
 
-   <div class="staff">
+    <div class="staff">
         <ul class="headshot committee">
             <li>
                 <figure>
@@ -91,10 +91,9 @@
     </div>
 
 
-    <h1>Batch 2022</h1>
+    <h1>Batch 2K22</h1>
     <div class="container">
         <ul class="headshot committee">
-
             <li>
                 <figure>
                     <img src="img/2022/twinkle.jpg" width="214px" height="270px" alt="" />
@@ -108,7 +107,6 @@
                     </figcaption>
                 </figure>
             </li>
-
             <li>
                 <figure>
                     <img src="img/2022/sunil.jpeg" width="214px" height="270px" alt="" />
@@ -149,49 +147,48 @@
                 </figure>
             </li>
         </ul>
+        <div class="row2">
+            <ul class="headshot committee">
+                <li>
+                    <figure>
+                        <img src="img/2022/mayank.jpeg" width="214px" height="270px" alt="" />
+                        <figcaption>
 
-        <ul class="headshot committee">
-            <li>
-                <figure>
-                    <img src="img/2022/mayank.jpeg" width="214px" height="270px" alt="" />
-                    <figcaption>
+                            <div>
+                                <h2>MAYANK SHARMA</h2><br>
+                            </div>
 
-                        <div>
-                            <h2>MAYANK SHARMA</h2><br>
-                        </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/2022/mrinal.jpeg" width="214px" height="270px" alt="" />
+                        <figcaption>
 
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/2022/mrinal.jpeg" width="214px" height="270px" alt="" />
-                    <figcaption>
+                            <div>
+                                <h2>MRINAL SATYAWANSHI</h2><br>
+                            </div>
 
-                        <div>
-                            <h2>MRINAL SATYAWANSHI</h2><br>
-                        </div>
+                        </figcaption>
+                    </figure>
+                </li>
 
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="img/2022/sumit.jpeg" width="214px" height="270px" alt="" />
-                    <figcaption>
+                <li>
+                    <figure>
+                        <img src="img/2022/sumit.jpeg" width="214px" height="270px" alt="" />
+                        <figcaption>
 
-                        <div>
-                            <h2>SUMIT PARMAR</h2><br>
+                            <div>
+                                <h2>SUMIT PARMAR</h2><br>
 
-                        </div>
+                            </div>
 
-                    </figcaption>
-                </figure>
-            </li>
-
-
-        </ul>
-
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+    </div>
     </div>
 
 

@@ -54,7 +54,7 @@
                         <span class="nav__name">Team</span>
                     </a>
 
-                    <a href="registration.php" class="nav__link">
+                    <a href="#" class="nav__link">
                         <i class='bx bx-bookmark nav__icon'></i>
                         <span class="nav__name">Registration</span>
                     </a>
@@ -91,7 +91,7 @@
     </div>
 
 
-    <h1>Batch 2023</h1>
+    <h1>Batch 2K23</h1>
     <div class="container">
         <ul class="headshot committee">
             <li>

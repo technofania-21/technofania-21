@@ -382,78 +382,12 @@ margin-left: auto;
   
 }
 
-@media screen and (max-width: 600px) {
-    .contact-form .form-control{
-        width:100%;
-        text-align:center;
-        margin-left:auto;
-    }
-   
-}
-@media screen and (max-width: 600px) {
-    .contact-form .form-control1{
-        width:100%;
-        text-align:center;
-        margin-left:auto;
-    }
-   
-}
-@media screen and (max-width: 600px) {
-    .contact-form .form-control2{
-        width:100%;
-        text-align:center;
-        margin-left:auto;
-    }
-   
-}
-@media screen and (max-width: 600px) {
-    .contact-form{
-        margin-left: 15%;
-        width:70%;
-        height: 90%;
-        
-    }
-   
-}
-@media screen and (max-width: 600px) {
-    .contact-form .btnContact{
-        width:100%;
-        text-align:center;
-        margin-left:auto;
-    }
-   
-}
 
-@media screen and (max-width: 300px) {
-    .contact-form h3{
-       margin-left:  -9.5%;
-       
-        margin-bottom: 8%;
-  margin-top: -10%;
-  text-align: center;
-        
-    }
-   
-}
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-/*@media screen and (max-width: 768px) {
-    .contact-form{
-        width: 50%;
-        height:80%;
-    }
-   .contact-f.form-control1{
-    width: 500px;
+@media screen and (max-width: 600px) {
+   .form-control1{
+    width: 25%;
     margin-top: 0;
-    text-align: center;
   }
-  .contact-form.form-control{
-    font-family: 'Balsamiq Sans', cursive;
-  margin-top:10px;
-  margin-left:15px;
-  border: 1px solid black;
-  border-radius:2px;
-  /*border-radius:1rem;
-  width: 40%;
-  }
-}*/
+}

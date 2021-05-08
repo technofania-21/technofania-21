@@ -1,12 +1,4 @@
 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^technofania\.in$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.technofania\.in$
-RewriteRule ^img\/?$ "http\:\/\/technofania\.in\/" [R=302,L]
-RewriteCond %{HTTP_HOST} ^technofania\.in$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.technofania\.in$
-RewriteRule ^assets\/?$ "http\:\/\/technofania\.in\/" [R=302,L]
-RewriteCond %{HTTP_HOST} ^technofania\.in$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.technofania\.in$
-RewriteRule ^manish123abc123\/?$ "http\:\/\/technofania\.in\/" [R=302,L]
-
+# HTID:17174386: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17174386:
